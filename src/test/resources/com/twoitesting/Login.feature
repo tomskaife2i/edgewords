@@ -4,7 +4,7 @@ Feature: Secure logins for the edgewords site
     Given I am on the login page
     When I use the username "edgewords" and the password "edgewords123"
     Then I am logged in
-    Then I am logged in
+
 
   Scenario: Attempt login with invalid credentials
     Given I am on the login page
