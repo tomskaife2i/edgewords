@@ -13,7 +13,6 @@
     <packaging>jar</packaging>
 
 
-
     <properties>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,13 +24,10 @@
     </properties>
 
 
-
     <dependencyManagement>
 
 
-
         <dependencies>
-
 
 
             <dependency>
@@ -47,7 +43,6 @@
                 <scope>import</scope>
 
             </dependency>
-
 
 
             <dependency>
@@ -69,9 +64,7 @@
     </dependencyManagement>
 
 
-
     <dependencies>
-
 
 
         <dependency>
@@ -85,7 +78,6 @@
         </dependency>
 
 
-
         <dependency>
 
             <groupId>io.cucumber</groupId>
@@ -97,7 +89,6 @@
         </dependency>
 
 
-
         <dependency>
 
             <groupId>org.junit.platform</groupId>
@@ -107,7 +98,6 @@
             <scope>test</scope>
 
         </dependency>
-
 
 
         <dependency>
@@ -123,7 +113,6 @@
         <!--Additional Deps-->
 
 
-
         <dependency>
 
             <groupId>org.seleniumhq.selenium</groupId>
@@ -133,7 +122,6 @@
             <version>4.1.2</version>
 
         </dependency>
-
 
 
         <dependency>
@@ -149,7 +137,6 @@
         </dependency>
 
 
-
         <dependency>
 
             <groupId>io.github.bonigarcia</groupId>
@@ -163,7 +150,6 @@
         </dependency>
 
 
-
         <dependency>
 
             <groupId>io.cucumber</groupId>
@@ -175,17 +161,26 @@
             <scope>test</scope>
 
         </dependency>
+        <!-- Rest Assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
 
     </dependencies>
-
 
 
     <build>
 
 
-
         <plugins>
-
 
 
             <plugin>
@@ -197,7 +192,6 @@
                 <version>3.9.0</version>
 
             </plugin>
-
 
 
             <plugin>
@@ -215,13 +209,10 @@
     </build>
 
 
-
     <reporting>
 
 
-
         <plugins>
-
 
 
             <plugin>
@@ -235,7 +226,6 @@
             </plugin>
 
 
-
             <plugin>
 
                 <groupId>org.apache.maven.plugins</groupId>
@@ -245,7 +235,6 @@
                 <version>3.1.2</version>
 
             </plugin>
-
 
 
             <plugin>
